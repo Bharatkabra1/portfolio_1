@@ -1,0 +1,142 @@
+#navbar{
+    display:flex;
+    align-items: center;
+    position: sticky;
+}
+body{
+     font-family:'Baloo Bhai 2', cursive;
+}
+#logo{
+    margin: 10px 10px;
+  
+}
+#logo img{
+    
+    height: 75px;
+    border-radius: 10px;
+}
+
+#navbar::before{
+    content: "";
+    position: absolute;
+    background-color: #b53838;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+.navbar{
+    position: relative;
+}
+#navbar ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+#navbar ul li{
+    list-style: none;
+    transition: all 300ms ease;
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+#navbar ul li a{
+    display: block;
+    padding: 9px 14px;
+    margin: 14px 14px;
+    color: #d9f800;
+    text-decoration: none;
+    border-radius: 19px;
+    font-size: 1.3rem;
+    border: 2px solid rgb(251, 255, 0);
+    border-radius: 6px;
+}
+#navbar ul li a:hover{
+    background-color:#50d81b;
+    color:  black;
+    transform: translateY(3px);
+    
+}
+#logo img:hover{
+    
+    cursor: pointer;
+}
+#navbar ul li .item{
+    display: flex;
+    justify-content:right ;
+    text-align: end;
+}
+#home{
+    display: flex;
+    justify-content: center;
+    margin:10px;
+    background: url("../img p2/img1.jpg")no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+    margin: 0;
+    height: 626px;
+}
+
+#home img{
+   
+    height: 400px;
+    border-radius: 10%;
+    margin: 35px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 10px black ;
+    
+
+}
+#home img:hover{
+    transition: transform;
+    
+    transform: translateY(3px); 
+   
+}
+.center{
+    text-align: center;
+    border: 2px solid red;
+    
+    font-size: 19px;
+    object-position: bottom;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    
+}
+.center:hover{
+    background-color: aqua;
+    transform: translateY(3px);
+}
+.intro{
+    display: block;
+    justify-content: center;
+    color: #faffff;
+    /* border: 2px solid #f0f039; */
+    text-align: left;
+    height: 458px;
+    padding: 10px;
+    margin: 35px 100px;
+    opacity: 10;
+    width: 320px;
+    border-radius: 12px;
+    
+}
+.intro:hover{
+    background-color: grey;
+    transform: translateY(3px);
+}
+
+
+.bg{
+    opacity: 0.6;
+}
+
+
+

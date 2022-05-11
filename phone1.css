@@ -1,0 +1,17 @@
+.intro{
+    height: fit-content;
+    width: fit-content;
+    flex-direction: column;
+}
+#navbar{
+    flex-direction: column;
+}
+.logo img{
+    flex-direction: column;
+}
+#home img{
+    flex-direction: column;
+}
+#home{
+    background: cover;
+}
