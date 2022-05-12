@@ -1,7 +1,10 @@
 #navbar{
     display:flex;
     align-items: center;
-    position: sticky;
+    /* position: sticky;
+    top: 3px; */
+
+    
 }
 body{
      font-family:'Baloo Bhai 2', cursive;
@@ -25,9 +28,7 @@ body{
     z-index: -1;
     opacity: 0.6;
 }
-.navbar{
-    position: relative;
-}
+
 #navbar ul{
     display: flex;
     justify-content: space-between;
