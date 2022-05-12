@@ -76,7 +76,7 @@ body{
     display: flex;
     justify-content: center;
     margin:10px;
-    background: url("../img p2/img1.jpg")no-repeat;
+    background: url("../portfolio/img p2/img1.jpg")no-repeat;
     background-size: cover;
     background-blend-mode: lighten;
     margin: 0;
